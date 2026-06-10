@@ -1,0 +1,16 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary video/editing output
+tmp-video-review/
+*.trf
+
+# Dependency/build folders if added later
+node_modules/
+dist/
+build/
+
+# Logs
+*.log

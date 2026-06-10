@@ -1,0 +1,24 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp servicii.html $DEPLOYPATH
+    - /bin/cp portofoliu.html $DEPLOYPATH
+    - /bin/cp materiale.html $DEPLOYPATH
+    - /bin/cp proces.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp beton-amprentat.html $DEPLOYPATH
+    - /bin/cp beton-elicopterizat.html $DEPLOYPATH
+    - /bin/cp pret-beton-amprentat.html $DEPLOYPATH
+    - /bin/cp oferta-beton-amprentat.html $DEPLOYPATH
+    - /bin/cp beton-amprentat-olt.html $DEPLOYPATH
+    - /bin/cp beton-amprentat-slatina.html $DEPLOYPATH
+    - /bin/cp beton-amprentat-caracal.html $DEPLOYPATH
+    - /bin/cp zone-acoperite.html $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp styles.css $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH

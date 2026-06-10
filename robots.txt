@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://amprentpna.ro/sitemap.xml
